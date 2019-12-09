@@ -1,0 +1,28 @@
+THIS IS THE README FILE FOR THE CODE DRONES_TRUCKS_SIM_CODE.
+
+
+
+The file simulates the K drone and trucks routing situtation graphically describing the best solution.
+
+
+
+
+You can use the following tweaks as per your understanding of it.
+
+BASIC FLEXIBILITIES OF THE CODE:
+
+Genrating you own situation:Please comment Lines 28-31 in case you want to manually simulate certain situations
+							In case you do that, also just uncomment lines 39-82 and put your own desired coordinates.
+			  			  
+Setting a random seed : Please put your desired seed at Line no 26
+
+Cost Modification : Within the objective function just modify numbers (10,3) to any suitable ratio to test eg.(10,1)
+
+Modify K-no of drones: Use line 91 and right the desired K+1 no in the RHS side of the code
+
+Modify run time: Uncommment Line no 8 and add your desired runtime in seconds
+
+
+
+
+
